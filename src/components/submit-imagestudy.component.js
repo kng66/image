@@ -37,7 +37,8 @@ export default class ViewImageStudy extends Component {
         })
         .catch((error) => {
             console.error('Error:', error);
-        });      
+        });
+      this.props.history.push('/');
   }
 
 

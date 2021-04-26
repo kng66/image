@@ -79,7 +79,7 @@ export default class ViewPatient extends Component {
             else {
                 return (
                     <div>
-                        <h3><Link to={"/"}>Home</Link></h3>
+                        <h3>No ImageStudy</h3>
                     </div>
                 );
             }
