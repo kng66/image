@@ -45,7 +45,7 @@ export default class ViewImageStudy extends Component {
   render() {
         return (
           <form onSubmit={this.onSubmit}>
-            <h1> React js File Upload</h1>
+            <h1> Upload ImageStudy Text File</h1>
             <input type="file" name="file" onChange={(e) => this.onChange(e)} />
             <button>Submit</button>
           </form>
