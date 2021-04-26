@@ -65,7 +65,7 @@ export default class ViewPatient extends Component {
                             </thead>
                             <tbody>
                                 {items.map(item =>(<tr key={item.resource.id}>
-                                    <td><Link to={"/"+item.resource.id+"/"+item.resource.identifier[0].value.substring(8)}>{item.resource.id}</Link></td>
+                                    <td><Link to={"/patient/"+item.resource.id+"/"+item.resource.identifier[0].value.substring(8)}>{item.resource.id}</Link></td>
                                     <td>{item.resource.description}</td>
                                     <td>{item.resource.started}</td>
                                     <td>{item.resource.numberOfSeries}</td>

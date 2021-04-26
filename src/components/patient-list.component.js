@@ -58,7 +58,7 @@ export default class PatientList extends Component {
                     </thead>
                     <tbody>
                         {items.map(item =>(<tr key={item.resource.id}>
-                            <td><Link to={"/"+item.resource.id}>{item.resource.id}</Link></td>
+                            <td><Link to={"/patient/"+item.resource.id}>{item.resource.id}</Link></td>
                             <td>{item.resource.name[0].given[0]}</td>
                             <td>{item.resource.name[0].family}</td>
                             <td>{item.resource.birthDate}</td>
